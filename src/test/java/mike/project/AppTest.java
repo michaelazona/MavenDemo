@@ -16,4 +16,12 @@ public class AppTest extends TestCase
 
         assertEquals(name, app.getName());
     }
+
+    public void testFormatGetFullName()
+    {
+    	String fullName = "Joseph Zona";
+    	Employee joe = new Employee("Joseph", "Zona", 10000);
+
+    	assertEquals(fullName, joe.getFullName());
+    }
 }
