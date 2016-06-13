@@ -9,7 +9,7 @@ import junit.framework.TestSuite;
  */
 public class AppTest extends TestCase
 {
-    public void setNameSameAsGetName()
+    public void testSetNameSameAsGetName()
     {
         String name = "Bob";
         App app = new App("Bob");
