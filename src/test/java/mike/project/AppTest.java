@@ -12,7 +12,7 @@ public class AppTest extends TestCase
     public void testSetNameSameAsGetName()
     {
         String name = "Fred";
-        App app = new App("Bob");
+        App app = new App("Fred");
 
         assertEquals(name, app.getName());
     }
