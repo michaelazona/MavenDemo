@@ -9,19 +9,19 @@ import junit.framework.TestSuite;
  */
 public class AppTest extends TestCase
 {
-    public void testSetNameSameAsGetName()
-    {
-        String name = "Fred";
-        App app = new App("Fred");
-
-        assertEquals(name, app.getName());
-    }
-
     public void testFormatGetFullName()
     {
     	String fullName = "Joseph Zona";
     	Employee joe = new Employee("Joseph", "Zona", 10000);
 
     	assertEquals(fullName, joe.getFullName());
+    }
+
+    public void testEarningsAfterTenYears()
+    {
+    	int salary = 100000;
+    	Employee joe = new Employee("Joseph", "Zona", 10000);
+
+    	assertEquals(salary, joe.getEarningsAfterTenYears());
     }
 }
