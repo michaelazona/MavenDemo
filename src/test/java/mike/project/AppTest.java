@@ -11,7 +11,7 @@ public class AppTest extends TestCase
 {
     public void testSetNameSameAsGetName()
     {
-        String name = "Bob";
+        String name = "Fred";
         App app = new App("Bob");
 
         assertEquals(name, app.getName());
