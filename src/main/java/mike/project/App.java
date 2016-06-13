@@ -6,8 +6,20 @@ package mike.project;
  */
 public class App 
 {
-    public static void main( String[] args )
+	private String name;
+
+    public App(String name)
     {
-        System.out.println( "Hello World!" );
+        this.name = name;
     }
+
+    public String getName()
+    {
+    	return this.name;
+    }
+
+    public void setName(String name)
+   	{
+   		this.name = name;
+   	}
 }
